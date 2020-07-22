@@ -6751,3 +6751,28 @@ ul.products li:hover {
 hr.bg1 {
     border: 1px solid #515f6d;
 }
+
+@media screen and (max-width: 800px) {
+  .rev_slider .caption, .rev_slider .tp-caption {
+    font-size: 1.6rem !important;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .rev_slider .caption, .rev_slider .tp-caption {
+    font-size: 1rem !important;
+  }
+}
+ul.mgroups {}
+ul.mgroups li {
+    padding: 10px;
+    max-width: 280px;
+    border-bottom: 2px solid #fff;
+}
+ul.mgroups li:hover {
+    background: #fff;
+    color: #26313c;
+    padding-left: 20px;
+    cursor: pointer;
+    border-left: 2px solid #fff;
+}
