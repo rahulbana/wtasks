@@ -2317,7 +2317,8 @@ a.dropdown-toggle::after {
 }
 
 .side-menu {
-    width: 40%;
+    /*width: 40%;*/
+    width: 400px;
     position: fixed;
     right: 0;
     top: 0;
@@ -2618,7 +2619,7 @@ a.dropdown-toggle::after {
         top: 26px;
     }
     .side-menu {
-        width: 80% !important;
+        width: 40% !important;
     }
     .dropdown-menu .dropdown-title {
         display: none;
@@ -2662,7 +2663,7 @@ a.dropdown-toggle::after {
         padding: 2rem 5rem;
     }
     .side-menu {
-        width: 100% !important;
+        width: 80% !important;
     }
     .navbar-nav {
         margin-top: 1.5rem;
@@ -6755,6 +6756,10 @@ hr.bg1 {
 @media screen and (max-width: 800px) {
   .rev_slider .caption, .rev_slider .tp-caption {
     font-size: 1.6rem !important;
+  }
+  #ourclients img {
+    max-height: 80px;
+    margin-bottom: 20px;
   }
 }
 
